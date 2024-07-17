@@ -1,0 +1,88 @@
+
+INSERT INTO TutorialAppSchema.Computer (
+            Motherboard,
+                HasWifi,
+                HasLTE,
+                ReleaseDate,
+                Price,
+                VideoCard,
+                CPUCores
+           ) VALUES ('Z690','True','False','6/2/2024 7:12:44 PM','949.99','GTX 3090','8')
+
+
+INSERT INTO TutorialAppSchema.Computer (
+            Motherboard,
+                HasWifi,
+                HasLTE,
+                ReleaseDate,
+                Price,
+                VideoCard,
+                CPUCores
+           ) VALUES ('Z690','True','False','6/2/2024 7:12:46 PM','949.99','GTX 3090','8')
+
+
+INSERT INTO TutorialAppSchema.Computer (
+            Motherboard,
+                HasWifi,
+                HasLTE,
+                ReleaseDate,
+                Price,
+                VideoCard,
+                CPUCores
+           ) VALUES ('Z690','True','False','6/2/2024 7:12:48 PM','949.99','GTX 3090','8')
+
+
+INSERT INTO TutorialAppSchema.Computer (
+            Motherboard,
+                HasWifi,
+                HasLTE,
+                ReleaseDate,
+                Price,
+                VideoCard,
+                CPUCores
+           ) VALUES ('Z690','True','False','6/2/2024 7:12:53 PM','949.99','GTX 3090','8')
+
+
+INSERT INTO TutorialAppSchema.Computer (
+            Motherboard,
+                HasWifi,
+                HasLTE,
+                ReleaseDate,
+                Price,
+                VideoCard,
+                CPUCores
+           ) VALUES ('Z690','True','False','6/2/2024 7:14:37 PM','949.99','GTX 3090','8')
+
+
+INSERT INTO TutorialAppSchema.Computer (
+            Motherboard,
+                HasWifi,
+                HasLTE,
+                ReleaseDate,
+                Price,
+                VideoCard,
+                CPUCores
+           ) VALUES ('Z690','True','False','6/2/2024 7:15:27 PM','949.99','GTX 3090','8')
+
+
+INSERT INTO TutorialAppSchema.Computer (
+            Motherboard,
+                HasWifi,
+                HasLTE,
+                ReleaseDate,
+                Price,
+                VideoCard,
+                CPUCores
+           ) VALUES ('Z690','True','False','6/2/2024 7:17:03 PM','949.99','GTX 3090','8')
+
+
+INSERT INTO TutorialAppSchema.Computer (
+            Motherboard,
+                HasWifi,
+                HasLTE,
+                ReleaseDate,
+                Price,
+                VideoCard,
+                CPUCores
+           ) VALUES ('Z690','True','False','6/2/2024 7:17:22 PM','949.99','GTX 3090','8')
+

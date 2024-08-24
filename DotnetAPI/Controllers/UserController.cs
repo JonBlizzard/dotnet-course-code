@@ -1,3 +1,6 @@
+using DotnetAPI.Data;
+using DotnetAPI.Dtos;
+using DotnetAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotnetAPI.Controllers;
@@ -100,5 +103,24 @@ public class UserController : ControllerBase
                 return Ok();
             }
         throw new Exception("boohoo this failed to add user");    
+    }
+
+    [HttpDelete("DeleteUser/{userId}")]
+
+    // public User GetSingleUser(int userId)
+    public IActionResult DeleteUser(int userId)
+    {
+        string sql = @"
+            DELETE FROM TutorialAppSchema.Users
+                WHERE UserId = " + userId.ToString();
+
+        Console.WriteLine(sql);
+
+            if(_dapper.ExecuteSql(sql))
+            {
+                return Ok();
+            }
+
+        throw new Exception("boohoo this failed to delete user");
     }
 }
